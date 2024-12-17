@@ -24,11 +24,11 @@ struct Kelas {
 struct Jurusan {
     string nama_jurusan;
     Jurusan* next;
-    Mahasiswa* head_mahasiswa; 
+    Kelas* head_kelas; 
 
     Jurusan() {
         next = nullptr;
-        head_mahasiswa = nullptr;
+        head_kelas = nullptr;
     }
 };
 
